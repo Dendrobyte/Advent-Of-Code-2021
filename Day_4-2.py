@@ -88,7 +88,8 @@ for selectedNum in inputNums:
             # print("Board score is:", calcWinningBoard(value))
             # print("Multiplied score is:", calcWinningBoard(value)*selectedNum)
             # The only difference is that we now keep going and save the last winning board!
-            lastWinningBoard = value.copy()
+            lastWinningBoard = boards.pop(key)
+            break
 print("--------")
 print("Last Winning Board...")
 print("Board score is:", calcWinningBoard(lastWinningBoard))
