@@ -24,9 +24,9 @@ Lastly, I chose Python because it's a quick language and I'm looking to get very
   - Time: 13 minutes for part 1, 24 for part 2
   - Log: Part 1 was easy... part 2 took a lot of parsing in my head to figure out what it was eveng asking me haha. When you read the example case, it's really not that bad. Part two took a little more debugging, and I realized I had to count the bits for the updated lists (versus keeping the count of all the numbers). You could definitely combine the two loops I have here into one when you get both ratings, and would definitely be more optimal as a result, but for now I'll leave it as-is.
 
-- [ ] Day 4 -- [Day 4 Python File]() | [Part 2]()
-  - Time:
-  - Log:
+- [x] Day 4 -- [Day 4 Python File](Day_4.py) | [Part 2](Day_4-2.py)
+  - Time: 36 minutes for part 1
+  - Log: Everything just had a lot of moving parts but ended up getting part 1 first try. I thought part 2 was going to be really easy but you need to find out how to get the last winning board without constantly editing the boards... and I took a break at that point.
 
 - [ ] Day X -- [Day X Python File]() | [Part 2]()
   - Time:
