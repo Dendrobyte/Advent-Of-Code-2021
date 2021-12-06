@@ -72,7 +72,9 @@ for lineVal, lineContent in enumerate(inputData):
 
 # Mark all boards and then check to see if any of them are the winner
 # NOTE: I suppose I could mark the nums when I make the board, but I can worry about optimization later
-lastWinningBoard = []
+winningBoards = []
+popkeys = []
+lastWinningNum = -1
 for selectedNum in inputNums:
     # For every board...
     for key, value in boards.items():
@@ -85,12 +87,20 @@ for selectedNum in inputNums:
         # Check to see if the board has won
         if isWinningBoard(value) == True:
             print("WINNING BOARD FOUND!")
-            # print("Board score is:", calcWinningBoard(value))
-            # print("Multiplied score is:", calcWinningBoard(value)*selectedNum)
-            # The only difference is that we now keep going and save the last winning board!
-            lastWinningBoard = boards.pop(key)
-            break
+            winningBoards.append(value)
+            popkeys.append(key)
+            lastWinningNum = selectedNum
+    # Remove boards that have already won on this number
+    for key in popkeys:
+        del boards[key]
+    popkeys = []
+lastWinningBoard = winningBoards[-1]
 print("--------")
 print("Last Winning Board...")
 print("Board score is:", calcWinningBoard(lastWinningBoard))
-print("Multiplied score is:", calcWinningBoard(lastWinningBoard)*selectedNum)
+print("Multiplied score is:", calcWinningBoard(lastWinningBoard)*lastWinningNum)
+print("Last won num:", lastWinningNum)
+
+"""
+Keep the functions, but maybe rewrite the logic to just save everywinning board and grab the last one in the list (but once a board wins, remove it).
+"""

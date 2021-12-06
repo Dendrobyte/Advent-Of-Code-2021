@@ -26,7 +26,7 @@ Lastly, I chose Python because it's a quick language and I'm looking to get very
 
 - [x] Day 4 -- [Day 4 Python File](Day_4.py) | [Part 2](Day_4-2.py)
   - Time: 36 minutes for part 1
-  - Log: Everything just had a lot of moving parts but ended up getting part 1 first try. I thought part 2 was going to be really easy but you need to find out how to get the last winning board without constantly editing the boards... and I took a break at that point.
+  - Log: Everything just had a lot of moving parts but ended up getting part 1 first try. I thought part 2 was going to be really easy but you need to find out how to get the last winning board without constantly editing the boards... and I took a break at that point. Ended up coming back and the solution was trivial. Save all of the winning boards and when a board wins, just pop it from the dictionary.
 
 - [ ] Day X -- [Day X Python File]() | [Part 2]()
   - Time:
