@@ -28,9 +28,13 @@ Lastly, I chose Python because it's a quick language and I'm looking to get very
   - Time: 36 minutes for part 1
   - Log: Everything just had a lot of moving parts but ended up getting part 1 first try. I thought part 2 was going to be really easy but you need to find out how to get the last winning board without constantly editing the boards... and I took a break at that point. Ended up coming back and the solution was trivial. Save all of the winning boards and when a board wins, just pop it from the dictionary.
 
-- [x] Day 5 -- [Day 5 Python File](Day_5.py) | [Part 2](Day_5-2.py)
-  - Time: Part 1 took about 30 mins.
+- [ ] Day 5 -- [Day 5 Python File](Day_5.py) | [Part 2](Day_5-2.py)
+  - Time: Part 1 took about 30 mins. Part 2 is incomplete- I'm overthinking diagonals.
   - Log: Had a silly little bug with enumerating the length of a spliced list (versus starting at the first index of that splice) which took me like 10 mins to find. Oops.
+
+- [ ] Day 6 -- [Day X Python File](Day_6.py) | [Part 2](Day_6-2.py)
+  - Time:
+  - Log:
 
 - [ ] Day X -- [Day X Python File](Day_X.py) | [Part 2](Day_X-2.py)
   - Time:

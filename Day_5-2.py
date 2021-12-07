@@ -42,6 +42,7 @@ for item in enumerate(x1y1):
     # x1 = x2
     if x1 == x2:
         for pos in range(min(y1, y2), max(y1, y2)+1):
+            # TODO I could (well, should) functionize this her (everywhere we add a 1 or increment by 1), but alas it's a note for now
             if ventMap[x1][pos] == ".":
                 ventMap[x1][pos] = 1
             else:
@@ -56,14 +57,50 @@ for item in enumerate(x1y1):
                 ventMap[row][y1] += 1
     # Account for diagonals
     else:
-        minX = min(x1, x2)
-        maxX = max(x1, x2)
-        minY = min(y1, y2)
-        maxY = max(y1, y2)
-        while minX < maxX:
+        # I'm sure there's a better way than all these conditionals... but it's 10:40pm on Dec 6th and I just want to wrap this one up
+        # NOTE If y1 == y2 or x1 == x2, that is caught with the part 1 code above
+        if x1 == y1 and x2 == y2:
+            # Clearly a diagonal
+            start = min(x1, x2)
+            end = max(x1, x2)
+            while start < end:
+                if ventMap[start][start] == ".":
+                    ventMap[start][start] = 1
+                else:
+                    ventMap[start][start] += 1
+        # If the change in value is the same, we have a diagonal
+        if abs(x1-x2) == abs(y1-y2):
+            # We want to always start at the higher coordinate based on Y, then go down left or right depending on X (keep in mind that higher means lower index)
+            # NOTE Keep in mind that if x1 == x2 or y1 == y2, those are already caught in the part 1 code above
+            start = -1
+            end = -1
+            startX = -1
+            leftOrRight = 0  # Use math to go left or right, lol
+            incrX = 0
+            if y1 < y2:
+                start = y1
+                end = y2
+                startX = x1
+            else:
+                start = y2
+                end = y1
+                startX = x2
+            if x1 < x2:
+                leftOrRight = 1
+            else:
+                leftOrRight = -1
 
-            minX += 1
-            minY += 1
+            while start < end:
+                print(startX, start)
+                print(x1, y1, x2, y2)
+                if ventMap[startX][start] == ".":
+                    ventMap[startX][start] = 1
+                else:
+                    ventMap[startX][start] += 1
+
+                start += 1*leftOrRight
+                startX += 1*leftOrRight
+
 
 # Flippy flip (transpose)
 ventMap = [[ventMap[j][i]
@@ -79,7 +116,7 @@ for row in ventMap:
 def printVentMap():  # For debugging and presentation
     for line in ventMap:
         for item in line:
-            print(format(str(item), '<5s'), end="")
+            print(format(str(item), '<2s'), end="")
         print()
 
 
