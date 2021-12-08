@@ -32,9 +32,9 @@ Lastly, I chose Python because it's a quick language and I'm looking to get very
   - Time: Part 1 took about 30 mins. And finally on day 7... he figured out diagonal lines.
   - Log: Had a silly little bug with enumerating the length of a spliced list (versus starting at the first index of that splice) which took me like 10 mins to find. Oops. Did the long way for diagonal line comparisons since the shortcut didn't seem to be working out for me. I'll leave as-is for now, maybe revisit to make shorter. But alas... I've got two days to catch up on!
 
-- [ ] Day 6 -- [Day X Python File](Day_6.py) | [Part 2](Day_6-2.py)
-  - Time:
-  - Log:
+- [x] Day 6 -- [Day X Python File](Day_6.py) | [Part 2](Day_6-2.py)
+  - Time: 21 minutes for part 1, part 2 was like 5 mins after I realized the non-recursive solution.
+  - Log: Getting the 'formula' for part 1 took me a second, as I had to add an extra day and extra age based on the fact I decremented before the logic, but otherwise the recursive solution on each fish is what worked for me. Seeing as part 2 is taking... ages... to run for the test cases, we'll do something more straightforward based on days, not fish in the input. Still takes a while, but it's shorter. Shoutout to @esilverm for the hint on optimizing it more.
 
 - [ ] Day X -- [Day X Python File](Day_X.py) | [Part 2](Day_X-2.py)
   - Time:
