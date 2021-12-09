@@ -36,9 +36,9 @@ Lastly, I chose Python because it's a quick language and I'm looking to get very
   - Time: 21 minutes for part 1, part 2 was like 5 mins after I realized the non-recursive solution.
   - Log: Getting the 'formula' for part 1 took me a second, as I had to add an extra day and extra age based on the fact I decremented before the logic, but otherwise the recursive solution on each fish is what worked for me. Seeing as part 2 is taking... ages... to run for the test cases, we'll do something more straightforward based on days, not fish in the input. Still takes a while, but it's shorter. Shoutout to @esilverm for the hint on optimizing it more.
 
-- [ ] Day 7 -- [Day 7 Python File](Day_7.py) | [Part 2](Day_7-2.py)
-  - Time:
-  - Log:
+- [x] Day 7 -- [Day 7 Python File](Day_7.py) | [Part 2](Day_7-2.py)
+  - Time: 6 minutes for part 1.
+  - Log: I just figured that I could find the median... and then that worked. You'll see why it took me 6 minutes if you look at the code. This... doesn't work for part 2.
 
 - [ ] Day 8 -- [Day 8 Python File](Day_8.py) | [Part 2](Day_8-2.py)
   - Time:
