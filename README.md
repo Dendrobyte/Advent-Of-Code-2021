@@ -32,9 +32,21 @@ Lastly, I chose Python because it's a quick language and I'm looking to get very
   - Time: Part 1 took about 30 mins. Part 2 is incomplete- I'm overthinking diagonals.
   - Log: Had a silly little bug with enumerating the length of a spliced list (versus starting at the first index of that splice) which took me like 10 mins to find. Oops.
 
-- [ ] Day 6 -- [Day X Python File](Day_6.py) | [Part 2](Day_6-2.py)
+- [ ] Day 6 -- [Day 6 Python File](Day_6.py) | [Part 2](Day_6-2.py)
   - Time:
   - Log:
+
+- [ ] Day 7 -- [Day 7 Python File](Day_7.py) | [Part 2](Day_7-2.py)
+  - Time:
+  - Log:
+
+- [ ] Day 8 -- [Day 8 Python File](Day_8.py) | [Part 2](Day_8-2.py)
+  - Time:
+  - Log:
+
+- [x] Day 9 -- [Day 9 Python File](Day_9.py) | [Part 2](Day_9-2.py)
+  - Time: 13 minutes for part 1
+  - Log: Day 1 was super easy. Will be cool to see if there's some graph approach to this versus all those conditionals I wrote. Part 2 is similar, but I'll go back and do the other days first.
 
 - [ ] Day X -- [Day X Python File](Day_X.py) | [Part 2](Day_X-2.py)
   - Time:
