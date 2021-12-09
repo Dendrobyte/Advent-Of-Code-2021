@@ -13,12 +13,12 @@ Lastly, I chose Python because it's a quick language and I'm looking to get very
 ## 目次 Table of Contents
 
 - [x] Day 1 -- [Day 1 Python File](Day_1.py) | [Part 2](Day_1-2.py)
- - Time: 6 minutes
- - Log: Very straightforward. Just iterating through lines and adding up the respective numbers. I believe I had to add 1 before submitting the response due to an issue with the last index I wasn't feeling like fixing.
+  - Time: 6 minutes
+  - Log: Very straightforward. Just iterating through lines and adding up the respective numbers. I believe I had to add 1 before submitting the response due to an issue with the last index I wasn't feeling like fixing.
 
 - [x] Day 2 -- [Day 2 Python File](Day_2.py) | [Part 2](Day_2-2.py)
- - Time: 9 minutes
- - Log: That shouldn't have taken me that long. Nonetheless, I would like to revisit this one to see if there's a more brief solution, but honestly I think this might just be as concise as it gets for efficient yet readable code (but with Python... you never know what secrets lay hidden beneath).
+  - Time: 9 minutes
+  - Log: That shouldn't have taken me that long. Nonetheless, I would like to revisit this one to see if there's a more brief solution, but honestly I think this might just be as concise as it gets for efficient yet readable code (but with Python... you never know what secrets lay hidden beneath).
 
 - [x] Day 3 -- [Day 3 Python File](Day_3.py) | [Part 2](Day_3-2.py)
   - Time: 13 minutes for part 1, 24 for part 2
@@ -28,13 +28,13 @@ Lastly, I chose Python because it's a quick language and I'm looking to get very
   - Time: 36 minutes for part 1
   - Log: Everything just had a lot of moving parts but ended up getting part 1 first try. I thought part 2 was going to be really easy but you need to find out how to get the last winning board without constantly editing the boards... and I took a break at that point. Ended up coming back and the solution was trivial. Save all of the winning boards and when a board wins, just pop it from the dictionary.
 
-- [ ] Day 5 -- [Day 5 Python File](Day_5.py) | [Part 2](Day_5-2.py)
-  - Time: Part 1 took about 30 mins. Part 2 is incomplete- I'm overthinking diagonals.
-  - Log: Had a silly little bug with enumerating the length of a spliced list (versus starting at the first index of that splice) which took me like 10 mins to find. Oops.
+- [x] Day 5 -- [Day 5 Python File](Day_5.py) | [Part 2](Day_5-2.py)
+  - Time: Part 1 took about 30 mins. And finally on day 7... he figured out diagonal lines.
+  - Log: Had a silly little bug with enumerating the length of a spliced list (versus starting at the first index of that splice) which took me like 10 mins to find. Oops. Did the long way for diagonal line comparisons since the shortcut didn't seem to be working out for me. I'll leave as-is for now, maybe revisit to make shorter. But alas... I've got two days to catch up on!
 
-- [ ] Day 6 -- [Day 6 Python File](Day_6.py) | [Part 2](Day_6-2.py)
-  - Time:
-  - Log:
+- [x] Day 6 -- [Day X Python File](Day_6.py) | [Part 2](Day_6-2.py)
+  - Time: 21 minutes for part 1, part 2 was like 5 mins after I realized the non-recursive solution.
+  - Log: Getting the 'formula' for part 1 took me a second, as I had to add an extra day and extra age based on the fact I decremented before the logic, but otherwise the recursive solution on each fish is what worked for me. Seeing as part 2 is taking... ages... to run for the test cases, we'll do something more straightforward based on days, not fish in the input. Still takes a while, but it's shorter. Shoutout to @esilverm for the hint on optimizing it more.
 
 - [ ] Day 7 -- [Day 7 Python File](Day_7.py) | [Part 2](Day_7-2.py)
   - Time:
