@@ -46,7 +46,7 @@ Lastly, I chose Python because it's a quick language and I'm looking to get very
 
 - [x] Day 9 -- [Day 9 Python File](Day_9.py) | [Part 2](Day_9-2.py)
   - Time: 13 minutes for part 1
-  - Log: Day 1 (part 1) was super easy. Will be cool to see if there's some graph approach to this versus all those conditionals I wrote. Part 2 is similar, and I smell a graph solution being required.
+  - Log: Day 1 (part 1) was super easy. Will be cool to see if there's some graph approach to this versus all those conditionals I wrote. Part 2 is similar, and I smell a graph solution being required. Part 2 took me about an hour, and about 40 of those minutes were spent messing with recursion. Then I more or less recalled BFS! Proud of myself, lol.
 
 - [ ] Day X -- [Day X Python File](Day_X.py) | [Part 2](Day_X-2.py)
   - Time:
