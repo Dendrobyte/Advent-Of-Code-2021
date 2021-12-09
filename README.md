@@ -40,9 +40,9 @@ Lastly, I chose Python because it's a quick language and I'm looking to get very
   - Time: 6 minutes for part 1. About 13 for part 2, did it in a class oops.
   - Log: I just figured that I could find the median... and then that worked. You'll see why it took me 6 minutes if you look at the code. This... doesn't work for part 2. I just brute forced part 2 but I do want to come back to see the 'proper' way of doing this because it took a while haha.
 
-- [ ] Day 8 -- [Day 8 Python File](Day_8.py) | [Part 2](Day_8-2.py)
-  - Time:
-  - Log:
+- [x] Day 8 -- [Day 8 Python File](Day_8.py) | [Part 2](Day_8-2.py)
+  - Time: All of 3 minutes for part 1.
+  - Log: Part 1 was incredibly straightforward. Was scared for part 2... and I am. The deduction is fun but it's a game of VERY partial information.
 
 - [x] Day 9 -- [Day 9 Python File](Day_9.py) | [Part 2](Day_9-2.py)
   - Time: 13 minutes for part 1
