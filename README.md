@@ -46,7 +46,7 @@ Lastly, I chose Python because it's a quick language and I'm looking to get very
 
 - [x] Day 9 -- [Day 9 Python File](Day_9.py) | [Part 2](Day_9-2.py)
   - Time: 13 minutes for part 1
-  - Log: Day 1 was super easy. Will be cool to see if there's some graph approach to this versus all those conditionals I wrote. Part 2 is similar, but I'll go back and do the other days first.
+  - Log: Day 1 (part 1) was super easy. Will be cool to see if there's some graph approach to this versus all those conditionals I wrote. Part 2 is similar, and I smell a graph solution being required.
 
 - [ ] Day X -- [Day X Python File](Day_X.py) | [Part 2](Day_X-2.py)
   - Time:

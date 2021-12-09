@@ -3,7 +3,8 @@ inputFile = open("inputs/Day_9_input.txt")
 inputData = inputFile.read().split("\n")
 inputFile.close()
 
-# I'm sure there's some easier way to do this, but this strikes me as easy for now...?
+# I'm sure there's some easier way to do this...
+# NOTE: Probably implementing my solution for part 2 would be quicker since I could just declare some adjacent checker function
 someMatrix = []
 
 for line in inputData:

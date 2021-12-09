@@ -26,16 +26,17 @@ fuelCostPerCoord = []
 
 # Do this for every possible position a crab can move to
 import time
-start = time.now()
+start = time.time()
 for pos in range(maxPosVal):
     # Find fuel cost for every crab
-    print("Calculating crab movement for position ", pos, "...", sep="")
+    print("Calculating crab movement for position ", pos, "...", sep="", end="\r")
     totalFuelCost = 0
     for crab in inputData:
         totalFuelCost += calcFuelForCrab(crab, pos)
     fuelCostPerCoord.append(totalFuelCost)
-end = time.now()
+print() # Empty line to avoid the carriage return
+end = time.time()
 
 minFuelCost = min(fuelCostPerCoord)
 minFuelCostIndex = fuelCostPerCoord.index(minFuelCost)
-print("The lowest fuel cost is {} at position {}. Process took {end-start} milliseconds".format(minFuelCost, minFuelCostIndex))
+print("The lowest fuel cost is {} at position {}. Process took {} seconds".format(minFuelCost, minFuelCostIndex, end-start))
